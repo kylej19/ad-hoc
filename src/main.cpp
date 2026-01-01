@@ -3,6 +3,17 @@
 
 int main()
 {
-  print_ad_hoc("Hello, World!");
+  int nums[3];
+
+  for (int& val : nums)
+    {
+      val = read_number();
+    }
+
+  for (int val : nums)
+    {
+      std::cout << val << std::endl;
+    }
+
   return 0;
 }

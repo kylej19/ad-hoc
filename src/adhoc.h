@@ -2,7 +2,9 @@
 #define ADHOC_H
 
 #include <iostream>
+#include <limits>
+#include <print>
 
-void print_ad_hoc(const std::string &message);
+int read_number();
 
 #endif // ADHOC_H
